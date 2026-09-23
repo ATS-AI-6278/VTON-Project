@@ -1,0 +1,14 @@
+# Balanced Mode Configuration (Recommended for RTX 2050 4GB)
+mode: "balanced"
+description: "High photorealistic fidelity with ambient crease/wrinkle luminance transfer and 4px edge feathering."
+
+render:
+  internal_resolution: [576, 768]
+  antialiasing: "bilinear_hq"
+  photometric_transfer: true
+  normal_displacement: true
+  delaunay_subdivisions: 24
+  keyframe_frequency: 8
+  optical_flow_propagation: true
+  target_fps: 26.0
+  expected_vram_mb: 1420

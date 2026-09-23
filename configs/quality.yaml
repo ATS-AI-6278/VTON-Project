@@ -1,0 +1,15 @@
+# Quality Mode Configuration (Prioritizes Photorealism Over FPS - Never Labeled Realtime)
+mode: "quality"
+description: "Maximum local quality with neural Poisson seam blending, dense optical flow refinement, and deep fabric highlights. Runs at ~12-15 FPS."
+
+render:
+  internal_resolution: [720, 960]
+  antialiasing: "bicubic_anisotropic"
+  photometric_transfer: true
+  normal_displacement: true
+  delaunay_subdivisions: 48
+  neural_wrinkle_synthesis: true
+  keyframe_frequency: 16
+  optical_flow_propagation: true
+  target_fps: 13.5
+  expected_vram_mb: 2140

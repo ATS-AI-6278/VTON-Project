@@ -1,0 +1,13 @@
+# Realtime Mode Configuration (Optimized for 30+ FPS and <25ms latency)
+mode: "realtime"
+description: "Lowest latency and continuous 60Hz output. Uses fast landmark warping and temporal EMA flow damping."
+
+render:
+  internal_resolution: [480, 640]
+  antialiasing: "subpixel_fast"
+  photometric_transfer: false
+  normal_displacement: false
+  delaunay_subdivisions: 12
+  keyframe_frequency: 1 # every frame is continuous flow
+  target_fps: 35.0
+  expected_vram_mb: 1180

@@ -1,0 +1,10 @@
+{
+  "name": "AnyWear Live VTON Desktop - Windows & macOS",
+  "description": "Standalone cross-platform desktop application for real-time live virtual try-on with native CUDA (RTX 2050 4GB) and Apple Silicon MPS acceleration, temporal video consistency, and Explorer/Finder drag-and-drop.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
